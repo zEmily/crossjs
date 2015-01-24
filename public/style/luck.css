@@ -1,0 +1,26 @@
+/* style */
+.title {
+	height: 30px;
+	font: 14px;
+	color: #444;
+	padding: 10px;
+}
+.luck-init {
+	width: 200px;
+	margin: 50px auto 0;
+}
+.luck-btn {
+	width: 100px;
+	height: 30px;
+	display: block;
+	line-height: 30px;
+	background: #37b2c4;
+	color: #fff;
+	border: none;
+	font-size: 14px;
+	margin: 20px auto 0;
+	display: none;
+}
+#imgLogo {
+	transform-origin:(bottom center);
+}
