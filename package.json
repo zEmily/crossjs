@@ -1,0 +1,9 @@
+{
+  "name": "cloud-code-test",
+  "description": "Cloud Code test project.",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "nib": "1.1.x"
+  }
+}
