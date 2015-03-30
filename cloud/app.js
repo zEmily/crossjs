@@ -2,6 +2,7 @@
 var express = require('express'),
 	stylus = require('stylus'),
 	nib = require('nib')
+
 var app = express();
 
 // App 全局配置
@@ -31,12 +32,9 @@ params.date = {
 	'date': today.getDate(),
 	'day': today.getDay()
 }
-app.get('/hello', function(req, res) {
-  res.render('hello', { params: params });
-});
-app.get('/test', function(req, res) {
-	res.render('test', {params: params});
-})
 
+app.get('/book', function(req, res) {
+	res.render('book', { params: params });
+});
 // 最后，必须有这行代码来使 express 响应 HTTP 请求
 app.listen();

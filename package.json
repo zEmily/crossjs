@@ -4,8 +4,6 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "nib": "1.1.x",
-    "director": "^1.2.3",
-    "webpack": "1.7.x"
+    "nib": "1.1.x"
   }
 }
