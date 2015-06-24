@@ -1,1 +1,101 @@
-<p>plain</p>
+<html>
+<head>
+    <title>测试滚屏 video</title>
+    <link rel="stylesheet" type="text/css" href="/style/jquery.fullPage.css">
+</head>
+<body>
+<div id="full-page">
+    <div class="section page-1">
+        <div class="buy-container">
+            <input type="hidden" id="need-redirect" />
+            <h2></h2>
+            <p class="h2-info">USB-C Hub for the New MacBook 12"</p>
+            <div itemscope itemtype="http://schema.org/Product">
+                <div class="product-wrap">
+                    <div class="product-details">
+
+                    </div>
+                    <form class="product-form" action="/cart/add" method="post">
+
+
+                        <div class="input-wrapper product-quantity">
+                            <input type="text" name="quantity" id="quantity" value="1" />
+                        </div>
+
+                        <div class="add-to-cart">
+
+                        </div>
+
+                    </form>
+                    <p>Deliver in October 2015</p>
+
+                </div>
+            </div>
+        </div><!--end of buy container-->
+        <div class="ks-info-container">
+            <p>8,019 backers pledged $883,460 to help bring this project to life.</p>
+            <div class="backers-showtime"><p>Thanks to our awesome backers: </p><div id="backers-name-list"></div></div>
+        </div>
+    </div><!-- end of first section-->
+    <div class="section page-2">
+        <iframe src="https://player.vimeo.com/video/126651557" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="fitvid297830" style="height:100%; width: 100%;"></iframe>
+    </div><!-- end of second section-->
+    <div class="section page-3">
+        <div class="product-introduction">
+            <h3>PORTS</h3>
+            <p>It gives you all the ports that you used to have on your MacBook Air or MacBook Pro and more.</p>
+            <ul>
+                <li>Three USB-A 3.0</li>
+                <li>Mini DisplayPort</li>
+                <li>Two USB-C</li>
+                <li>SDXC Card Reader</li>
+            </ul>
+        </div>
+    </div><!-- end of 3 section-->
+    <div class="section page-4">
+        <div class="product-introduction">
+            <h3>PORTABLITY</h3>
+            <p>Minimalist design makes Hub+ easy to carry.</p>
+        </div>
+    </div><!-- end of 4 section-->
+    <div class="section page-5">
+        <div class="product-introduction">
+            <h3>POWER</h3>
+            <p>With a built-in Lithium-ion battery, Hub+ is able to:</p>
+            <ul>
+                <li>Charge 3 devices at the same time</li>
+                <li class="right-item">Stone charge automatically when used as a hub, so you never have to remember to charge that external battery for your phone</li>
+                <li class="stable-item">Give 2.5 hours of additional talking time on an iPhone 6</li>
+            </ul>
+        </div>
+    </div><!-- end of 5 section-->
+    <div class="section page-6">
+        <div class="blog-container">
+            <ul class="blog-images">
+            </ul>
+            <div class="blog-content">
+                <h3>DESIGN CONCEPT</h3>
+                <p>The Hub+ is the most sophisticated, versatile and smartest port replicator on the market. We redefined the needs of people using the new Apple MacBook by analyzing every possible behavior and thus have developed the best hub yet.</p>
+                <p>The Hub+ gives you freedom in different situations without making compromises. No matter if you use it at home, in the office or on the way. We used advanced production techniques to make the hub as thin as conceivable and one that fits into the smallest pocket while providing all the ports that you're used to having.</p>
+                <p>The Hub+ is not just a hub. It serves as a “charging bridge” for the new MacBook and makes it possible to plug in all your gear and charge your MacBook at the same time. We resisted building in a fixed cable that limits the usability of the hub in order to give the user the freedom that he deserves. You can use a short cable when you’re on your way or a long cable for your workspace. Or you can use the Hub+ as a portable charger and plug in your standard USB charging cable to charge your phone.</p>
+                <p>The Hub+ is built with the best materials and an incredibly smart and beautiful design to give you the best experience you could ever get with your new Apple MacBook.</p>
+                <p class="article-source">- Jan Schmitt, Chief Designer of Hub+ (Heidelberg, Germany)</p>
+            </div>
+        </div>
+        <div class="product-footer">
+        </div>
+    </div><!-- end of 6 section-->
+</div><!--end of full page-->
+
+<script type="text/javascript" src="/js/2.js"></script>
+<script type="text/javascript" src="/js/fullPage.min.js"></script>
+<script type="text/javascript">
+    void function() {
+        $(document).ready(function() {
+            $('#full-page').fullpage();
+        });
+    }()
+</script>
+</body>
+
+</html>
